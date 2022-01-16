@@ -2,14 +2,15 @@
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
+    "outDir": "tsc-out",
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
     "strict": true,
     "sourceMap": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": false,
     "esModuleInterop": true,
-    "noEmit": true,
+    "noEmit": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
@@ -18,12 +19,13 @@
     "paths": {
       "@/*": [
         "src/*"
-      ],
+      ]
     }
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
+    "node_modules/**/*.es6",
     "typings"
   ]
 }
