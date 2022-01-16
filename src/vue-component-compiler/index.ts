@@ -4,7 +4,7 @@ import {
   TemplateOptions,
   ScriptOptions
 } from './compiler'
-import vueTemplateCompiler from 'vue-template-compiler';
+import * as vueTemplateCompiler from 'vue-template-compiler';
 
 export const createCompiler = ({
   script,

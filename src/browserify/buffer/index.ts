@@ -1,5 +1,5 @@
-import { Buffer } from "buffer";
+import * as buffer from "buffer";
 
-window.Buffer = Buffer;
+window.Buffer = buffer.Buffer;
 
-export default { Buffer };
+export default buffer;

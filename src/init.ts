@@ -1,11 +1,11 @@
-import '@/browserify/process/index'
-import '@/browserify/buffer/index'
-import '@/browserify/events/index'
-import 'path/';
-import 'url/';
-import 'util/';
-import 'stream/';
-import 'assert/';
+// import '@/browserify/process/index'
+// import '@/browserify/buffer/index'
+// import '@/browserify/events/index'
+// import 'path/';
+// import 'url/';
+// import 'util/';
+// import 'stream/';
+// import 'assert/';
 
 import { createDefaultCompiler } from './vue-component-compiler';
 import { SystemJSPrototype } from './SystemJSPrototype';

@@ -1,4 +1,4 @@
-import { EventEmitter } from 'events';
+import * as EventEmitter from 'events';
 
 // @ts-ignore
 window.EventEmitter = EventEmitter;

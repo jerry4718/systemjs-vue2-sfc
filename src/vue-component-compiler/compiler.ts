@@ -14,13 +14,13 @@ import {
 import { AssetURLOptions } from '@vue/component-compiler-utils/dist/templateCompilerModules/assetUrl';
 import { PlatformPath } from 'path';
 
-import postcssModules from '@/postcss-modules-sync/index';
+import * as postcssModules from 'postcss-modules-sync';
 import { SystemJSPrototype } from '@/SystemJSPrototype';
 import postcssClean from './postcss-clean';
 import * as path from 'path';
 
 import hash from 'hash-sum';
-import templateCompiler from 'vue-template-compiler';
+import * as templateCompiler from 'vue-template-compiler';
 
 export interface TemplateOptions {
     compiler: VueTemplateCompiler;
