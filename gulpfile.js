@@ -9,7 +9,7 @@ import rollupJson from '@rollup/plugin-json';
 import rollupAlias from '@rollup/plugin-alias';
 import rollupPolyfillsNode from 'rollup-plugin-polyfill-node';
 import rollupReplace from '@rollup/plugin-replace';
-import { rollupSelfResolve } from './rollup-scripts/rollup-plugin-bundle-resolve.js';
+import { rollupSelfResolve } from './rollup-scripts/plugin/self-resolve.js';
 
 import gulp from 'gulp';
 
